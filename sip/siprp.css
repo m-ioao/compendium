@@ -3,7 +3,7 @@
 #siprp {width:714px;background-color:transparent;display:flex; flex-flow: column nowrap;}
 #siprp div:not(:last-child) {margin-bottom: 17px;}
 
-.entete {width:714px;height:119px;}
+.entete {width:714px;height:119px;background-size: cover;}
 .contenurp {background-color: #0003;text-align: justify;padding: 17px;}
 .rolistes {display: flex; flex-flow: row;padding: 11px;justify-content: space-evenly;border: solid black 3px;}
 
