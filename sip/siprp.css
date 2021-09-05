@@ -4,6 +4,9 @@
 #siprp div:not(:last-child) {margin-bottom: 17px;}
 
 .entete {width:714px;height:119px;background-size: cover;}
+.cch {width:100%;height:100%}
+.cch:hover {background-color: #1f1b4d9c;transition: all 3.5s;}
+
 .contenurp {background-color: #0003;text-align: justify;padding: 17px;}
 .rolistes {display: flex; flex-flow: row;padding: 11px;justify-content: space-evenly;border: solid black 3px;}
 
