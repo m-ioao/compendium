@@ -1,0 +1,10 @@
+/* Still in Progress CSS GLC FILE */
+
+#siprp {width:714px;background-color:transparent;display:flex; flex-flow: column nowrap;}
+#siprp div:not(:last-child) {margin-bottom: 17px;}
+
+.entete {width:714px;height:119px;}
+.contenurp {background-color: #0003;text-align: justify;padding: 17px;}
+.rolistes {display: flex; flex-flow: row;padding: 11px;justify-content: space-evenly;border: solid black 3px;}
+
+.ctrig{fill:transparent;stroke:black;stroke-width:1px;clip-path:url(#TrigClipPath);}
