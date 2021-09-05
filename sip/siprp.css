@@ -3,11 +3,12 @@
 #siprp {width:714px;background-color:transparent;display:flex; flex-flow: column nowrap;}
 #siprp div:not(:last-child) {margin-bottom: 17px;}
 
-.entete {width:714px;height:119px;background-size: cover;}
-.cch {width:100%;height:100%}
-.cch:hover {background-color: #1f1b4d9c;transition: all 3.5s;}
+#siprp .entete {display:grid;width:714px;height:119px;background-size: cover;}
+#siprp .entete h1 {grid-column: 1 / 2; grid-row: 1 / 2; }
+#siprp .cch {width:714px;grid-column: 1 / 2; grid-row: 1 / 2;}
+#siprp .cch:hover {background-color: #1f1b4d9c;transition: all 3.5s;}
 
-.contenurp {background-color: #0003;text-align: justify;padding: 17px;}
-.rolistes {display: flex; flex-flow: row;padding: 11px;justify-content: space-evenly;border: solid black 3px;}
+#siprp .contenurp {background-color: #0003;text-align: justify;padding: 17px;}
+#siprp .rolistes {display: flex; flex-flow: row;padding: 11px;justify-content: space-evenly;border: solid black 3px;}
 
-.ctrig{fill:transparent;stroke:black;stroke-width:1px;clip-path:url(#TrigClipPath);}
+#siprp .ctrig{fill:transparent;stroke:black;stroke-width:1px;clip-path:url(#TrigClipPath);}
