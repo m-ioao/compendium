@@ -1,23 +1,10 @@
 /* Still in Progress CSS GLC FILE */
 
-#siprp {width:714px;background-color:transparent;display:flex; flex-flow: column nowrap;}
+#frpsip {background-color: #0002;padding: 17px;}
+#frpsip p {margin-top:17px;}
+#frpsip q {grid-area:q;quotes:none; font-weight:500;margin-left:11px;}
+#frpsip q > span {color:#767aaf;font-weight:300;}
+#frpsip details {padding-left: 34px;}
+#frpsip summary {list-style-image: url(https://api.iconify.design/gg/shape-rhombus.svg?color=%231691b2&width=18);list-style-position: unset;}
+#frpsip summary::marker {color: red;}
 
-#siprp .entete {display:grid;width:714px;height:119px;background-size: cover;}
-#siprp .entete h1 {grid-column: 1 / 2; grid-row: 1 / 2; margin:auto;padding-bottom:11px;width: 714px; }
-#siprp .cch {width:714px;grid-column: 1 / 2; grid-row: 1 / 2;}
-#siprp .cch:hover {background-color: #1f1b4d9c;transition: all 3.5s;}
-#siprp .rolistes {display: flex; flex-flow: row;padding: 11px;justify-content: space-evenly;/*border: solid 1px var(--m-color-1)*/;margin-top: 17px;}
-
-#siprp .contenurp {display:inline-flex;flex-flow:column;background-color: #0003;text-align: justify;padding: 17px;margin:34px 17px;/*outline:1px solid var(--m-color-1); outline-offset:17px;*/}
-#siprp .prl {display: inline-grid;grid-template-areas: "img q";grid-template-columns: 85px 1fr;align-items: center;margin:11px;padding:11px;}
-
-
-#siprp .prl img {grid-area:img;width: 85px; height:85px; object-fit:cover;clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);}
-#siprp .prl::before {content: ''; grid-area:img;width: 68px;height: 68px; display: block; transform: rotate(45deg);border:1.7px solid;margin:auto;}
-#siprp .prl q {grid-area:q;quotes:none; font-weight:bold;margin-left:11px;}
-#siprp .prl q > span {color:#767aaf;font-weight:normal;}
-
-#siprp .resume {display: flex;margin-bottom: 17px;border: solid 1px /*var(--m-color-1)*/;}
-
-
-#siprp .ctrig{fill:transparent;stroke:/*var(--m-color-1)*/;stroke-width:2px;clip-path:url(#TrigClipPath);}
